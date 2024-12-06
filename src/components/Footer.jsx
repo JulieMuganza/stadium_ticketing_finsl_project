@@ -2,7 +2,7 @@ import React from 'react'
 import "../pages/Register.css"
 import facebook from "../assets/facebook1.png"
 import instagram from "../assets/instagram1.png"
-import twitter from "../assets/x1.png"
+import twitter from "../assets/X1.png"
 
 const Footer = () => {
   return (
