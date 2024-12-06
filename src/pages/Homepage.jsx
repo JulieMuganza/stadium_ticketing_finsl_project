@@ -2,7 +2,7 @@ import React from 'react'
 import "./Home.css"
 import facebook from "../assets/facebook1.png"
 import instagram from "../assets/instagram1.png"
-import twitter from "../assets/x1.png"
+
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { useTranslation } from 'react-i18next';
