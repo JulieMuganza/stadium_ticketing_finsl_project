@@ -1,0 +1,201 @@
+
+        /* Basic Styling */
+        body {
+            background-image: url("../assets/stadium5.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+        }
+
+        header {
+            background-color: #000;
+            color: white;
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        header .logo h1 {
+            font-size: 2em;
+            font-weight: bold;
+            color: #ffcc00;
+            margin-left: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin-right: 20px;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+      /* Form Styling */
+.form-signin {
+    max-width: 800px; /* Increased width */
+    padding: 40px; /* Increased padding */
+    margin: 150px auto; /* Adjusted margin for better centering */
+    background-color: rgba(0, 0, 0, 0.9); /* Slightly darker background for better contrast */
+    color: white;
+    border-radius: 15px; /* Larger border radius for a smoother look */
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5); /* Deeper shadow for more emphasis */
+    font-size: 18px; /* Increased text size */
+}
+
+/* Form Input Styling */
+.form-signin input[type="text"],
+.form-signin input[type="password"],
+.form-signin input[type="email"],
+.form-signin button {
+    width: 100%; /* Ensures inputs span the full width of the form */
+    padding: 15px; /* Increased padding for larger inputs */
+    margin-bottom: 20px; /* More spacing between inputs */
+    font-size: 16px; /* Larger text in input fields */
+    border: 1px solid #ccc; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    box-sizing: border-box; /* Ensures padding doesn't increase width */
+}
+
+/* Button Styling */
+.form-signin button {
+    background-color: #ffcc00; /* Blue button color */
+    color: white;
+    font-size: 18px; /* Larger button text */
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.form-signin button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Headings Styling */
+.form-signin h3 {
+    font-size: px; /* Increased heading size */
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* Link Styling */
+.form-signin a {
+    color: #007bff;
+    font-size: 16px; /* Increased link size */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.form-signin a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+
+        h3 {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #ffcc00;
+        }
+
+        input[type="text"], input[type="password"], input[type="email"] {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+
+        button[type="submit"], .btn-custom {
+            background-color: #ffcc00;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 1.2em;
+            transition: background-color 0.3s;
+        }
+
+        button[type="submit"]:hover, .btn-custom:hover {
+            background-color: #e6b800;
+        }
+
+        .forgot-password-btn {
+            color: #ffcc00;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .forgot-password-btn:hover {
+            color: #ffd700;
+        }
+
+        .modal.fade .modal-dialog {
+            transform: translateY(-50px);
+            opacity: 0;
+            transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+        }
+
+        .modal.show .modal-dialog {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        .modal-header {
+            background-color: #ffcc00;
+            color: white;
+        }
+        /* Footer Styling */
+        footer {
+            background-color: #000;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+.social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .social-icons a:hover {
+            transform: scale(1.1);
+        }
+    

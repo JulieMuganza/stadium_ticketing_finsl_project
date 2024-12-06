@@ -1,0 +1,173 @@
+body {
+    background-image: url("../../assets/stadium3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #ffdd57;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.search-bar {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.search-input {
+    width: 60%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #ffdd57;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.search-input:focus {
+    width: 25%;
+    border-color: #ff9900;
+    box-shadow: 0 0 10px rgba(255, 153, 0, 0.5);
+}
+
+.back-button, .filter-button {
+    background-color: #6c757d;
+    padding: 17px 25px;
+    margin: 10px;
+    margin-bottom: 3%;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+
+table {
+    width: 100%;
+    color: whitesmoke;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+th, td {
+    padding: 12px;
+    color: white;
+}
+
+th {
+    background-color: #333;
+    font-weight: bold;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s;
+}
+
+.action-buttons a {
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 4px;
+    margin: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.edit-button { background-color: #3498db; }
+.edit-button:hover { background-color: #2b7bb9; }
+.delete-button { background-color: #e74c3c; }
+.delete-button:hover { background-color: #c0392b; }
+.download-button { background-color: #28a745; }
+.download-button:hover { background-color: #218838; }
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer p { margin: 3px 0; }
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.social-icons a {
+    margin: 0 8px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img {
+    width: 25px;
+    height: 25px;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+}
+
+.search-bar-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; /* Adjusted to keep things more compact */
+    gap: 40px;  /* Optional: creates a small gap between the input and button */
+}
+
+.search-input {
+    padding: 9px 20px;  /* Reduced padding for a smaller input field */
+    font-size: 14px;     /* Smaller font size */
+    width: 700px;        /* Set a fixed width to control input size */
+    border-radius: 10px;  /* Rounded corners */
+    border: 9px solid #ccc;  /* Light border */
+}
+.filter-dropdown {
+    background-color: #6c757d; /* Same background color as buttons */
+    padding: 10px 20px;         /* Smaller padding for compact size */
+    margin: 10px 5px;          /* Slight margin to align with other buttons */
+    font-weight: bold;         /* Bold text */
+    border-radius: 10px;        /* Rounded corners for consistency */
+    color: white;              /* White text color */
+    cursor: pointer;          /* Pointer cursor */
+    border: none;              /* Removes border */
+    text-decoration: none;     /* Removes default styles */
+    width: auto;               /* Adjust width automatically */
+    appearance: none;          /* Removes browser-specific dropdown styling */
+    display: inline-block;     /* Align inline with other elements */
+    height: 50px;              /* Same height as buttons */
+    line-height: 1.2;          /* Adjust line-height for consistent appearance */
+}
+
+.filter-dropdown:hover {
+    background-color: #5a6268; /* Darker color on hover */
+}
+
+
