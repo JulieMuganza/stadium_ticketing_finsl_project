@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "./login.css";
 import facebook from "../assets/facebook1.png";
 import instagram from "../assets/instagram1.png";
-import twitter from "../assets/x1.png";
+
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import { useNavigate } from 'react-router';
